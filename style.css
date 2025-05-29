@@ -1,0 +1,167 @@
+*{
+    margin: 0px;
+    font-family: 'inter';
+}
+
+
+#menusuperior {
+    background-image: url(Imagens/fundo-hero.svg);
+    color: #EAECE5;
+    padding-bottom: 150px;
+}
+
+
+#menuinfo {
+    background-color: #EAECE5;
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+    justify-content:space-between;
+    padding: 50px 175px 50px 175px;
+    
+}
+
+#secaovideo {
+    background-color: #f1f1f1;
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    justify-content:space-evenly;
+ 
+}
+
+
+#logo {
+    width: 125px;
+    margin-top: 55px;
+    margin-left: 60px;
+}
+
+#title-hero {
+    margin-left: 175px;
+    margin-top: 80px;
+    font-size: 40px;
+    line-height: 1.4em;
+}
+
+#text-hero {
+    margin-left: 175px;
+    margin-top: 25px;
+    font-size: 20px;
+    line-height: 1.5em;
+}
+
+.textoinformativo {
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+    font-weight: 500;
+    
+}
+
+.icone {
+    padding: 16px;
+}
+
+#titulovideo {
+    color: #247BA0;
+    font-size: 40px;
+    padding-bottom: 16PX;
+}
+
+#textovideo {
+    color: black;
+    font-size: 18px;
+    margin-right: 175px;
+}
+
+
+#video {
+    margin-left: 175px;
+    margin-right: 64px;
+}
+
+#carrossel {
+    padding: 50px 125px 50px 125px;
+    background-color: #247BA0;
+
+}
+
+#titulo-carrossel {
+    color: #f1f1f1;
+    text-align: center;
+    font-size: 26px;
+    padding-bottom: 24px;
+}
+
+#div-cards {
+    display: grid;
+    grid-auto-flow: column;
+}
+
+.card {
+    padding: 8px;
+}
+
+#setaesquerda {
+    display: none;
+    margin-top: 100%;
+}
+
+#card3 {
+    display: none;
+}
+
+.seta {
+    margin-top: 75%;
+    cursor: pointer;
+}
+
+.seta:hover {
+    transform: translateY(-7px);
+    transition-duration: 0.3s;
+}
+
+#form {
+    background-color: white;
+    padding: 50px 125px 50px 125px;
+    text-align: center;
+}
+
+#tituloform {
+    color: black;
+    font-size: 26px;
+    padding-bottom: 32px;
+    
+}
+
+input {
+    background-color: #EAECE5;
+    color: #383838;
+    padding-left: 1em;
+    margin-bottom: 2em;
+    width: 413px;
+    height: 53px;
+    border-radius: 10px;
+    border: none;
+}
+
+button {
+    background-color: #247BA0;
+    color:#EAECE5;
+    width: 335px;
+    height: 53px;
+    border-radius: 10px;
+    border: none;
+    font-size: 1em;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+button:hover {
+    background: linear-gradient(to left, #247BA0, #2790BC);
+    transform: translateY(-7px);
+    transition-duration: 0.5s;
+}
